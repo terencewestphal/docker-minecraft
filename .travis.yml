@@ -1,0 +1,10 @@
+services:
+  - docker
+
+install:
+  - docker build -t minecraft .
+  - docker run -d -p 25565:25565 --name minecraft minecraft
+
+script:
+  - sleep 10
+  - docker ps | grep -q minecraft
