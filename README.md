@@ -1,14 +1,13 @@
-[![Build Status](https://travis-ci.org/terencewestphal/docker-minecraft.svg?branch=master)](https://travis-ci.org/terencewestphal/docker-minecraft) [![Docker Build Statu](https://img.shields.io/docker/build/terencewestphal/minecraft.svg)](https://hub.docker.com/r/terencewestphal/minecraft/builds/) [![Docker Stars](https://img.shields.io/docker/stars/terencewestphal/minecraft.svg)]() [![Docker Pulls](https://img.shields.io/docker/pulls/terencewestphal/minecraft.svg)](https://hub.docker.com/r/terencewestphal/minecraft/) 
+[![Build Status](https://travis-ci.org/terencewestphal/docker-minecraft.svg?branch=develop)](https://travis-ci.org/terencewestphal/docker-minecraft) [![Docker Build Statu](https://img.shields.io/docker/build/terencewestphal/minecraft.svg)](https://hub.docker.com/r/terencewestphal/minecraft/builds/) ![Docker Stars](https://img.shields.io/docker/stars/terencewestphal/minecraft.svg) [![Docker Pulls](https://img.shields.io/docker/pulls/terencewestphal/minecraft.svg)](https://hub.docker.com/r/terencewestphal/minecraft/) 
 
 [![Minecraft](https://github.com/terencewestphal/docker-minecraft/blob/master/logo.png?raw=true)](https://minecraft.net/) 
  
-# Minecraft Server (Vanilla)
+# Docker - Minecraft (Vanilla)
 
-**The vanilla Minecraft server in a Docker container**
-
-- Minimalistic and simple to configure.
-- Works out-of-the-box. Defaults are provided if no volume is mounted.
-- Based on the [Official OpenJDK Alpine](https://hub.docker.com/_/openjdk/) image.
+- Minimalistic and simple to configure
+- Works out-of-the-box. Defaults are provided if no volume is mounted
+- Based on the [Official OpenJDK Alpine](https://hub.docker.com/_/openjdk/) image
+- Base image for [Minecraft SpongeVanilla](https://hub.docker.com/r/terencewestphal/minecraft-spongevanilla/)
 
 ## Supported tags and Dockerfile
 
