@@ -3,7 +3,7 @@ FROM openjdk:alpine
 LABEL maintainer "Terence Westphal"
 
 # Use default value if the build argument is not set
-ARG VERSION=1.11.2
+ARG VERSION=1.12
 
 ENV MC_VERSION=${VERSION}
 ENV PACKAGE="/opt/minecraft"
