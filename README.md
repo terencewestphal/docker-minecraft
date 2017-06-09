@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/terencewestphal/docker-minecraft.svg?branch=develop)](https://travis-ci.org/terencewestphal/docker-minecraft) [![Docker Build Statu](https://img.shields.io/docker/build/terencewestphal/minecraft.svg)](https://hub.docker.com/r/terencewestphal/minecraft/builds/) ![Docker Stars](https://img.shields.io/docker/stars/terencewestphal/minecraft.svg) [![Docker Pulls](https://img.shields.io/docker/pulls/terencewestphal/minecraft.svg)](https://hub.docker.com/r/terencewestphal/minecraft/) 
+[![Docker Build Statu](https://img.shields.io/docker/build/terencewestphal/minecraft.svg)](https://hub.docker.com/r/terencewestphal/minecraft/builds/) ![Docker Stars](https://img.shields.io/docker/stars/terencewestphal/minecraft.svg) [![Docker Pulls](https://img.shields.io/docker/pulls/terencewestphal/minecraft.svg)](https://hub.docker.com/r/terencewestphal/minecraft/) 
 
 [![Minecraft](https://github.com/terencewestphal/docker-minecraft/blob/master/logo.png?raw=true)](https://minecraft.net/) 
  
@@ -11,7 +11,8 @@
 
 ## Supported tags and Dockerfile
 
-- `1.11.2`, `latest` ([Dockerfile](https://raw.githubusercontent.com/terencewestphal/docker-minecraft/1.11.2/Dockerfile))
+- `1.12`, `latest` ([Dockerfile](https://raw.githubusercontent.com/terencewestphal/docker-minecraft/1.12/Dockerfile))
+- `1.11.2` ([Dockerfile](https://raw.githubusercontent.com/terencewestphal/docker-minecraft/1.11.2/Dockerfile))
 
 
 ### Pull  
@@ -23,7 +24,7 @@ docker pull terencewestphal/minecraft:latest
 
 Get a specific version:
 ```
-docker pull terencewestphal/minecraft:1.11.2
+docker pull terencewestphal/minecraft:1.12
 ```
 
 ### Build  
@@ -35,7 +36,7 @@ docker build -t minecraft .
 
 Optional: Build with a specific Minecraft version:   
 ```
-docker build --build-arg VERSION=1.11.2 -t minecraft .
+docker build --build-arg VERSION=1.12 -t minecraft .
 ```
 
 ### Run
