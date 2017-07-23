@@ -37,7 +37,7 @@ fileExists() {
 
 start_server() {
   local ram=$(available_memory)
-  local jvm_opt="-Xms256M -Xmx${ram}M -XX:+UseConcMarkSweepGC -XX:+CMSIncrementalPacing -XX:+AggressiveOpts"
+  local jvm_opt="-Xms${ram}M -Xmx${ram}M -XX:+UseConcMarkSweepGC -XX:+CMSIncrementalPacing -XX:+AggressiveOpts"
   local jar_opt="${JAR_OPT}"
   local server="${PACKAGE}/${JAR}"
   fileExists "${server}" || error "Failed to locate ${server}"
