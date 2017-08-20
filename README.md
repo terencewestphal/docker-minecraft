@@ -11,7 +11,7 @@
 
 ## Supported tags and Dockerfile
 
-- `1.12`, `latest` ([Dockerfile](https://raw.githubusercontent.com/terencewestphal/docker-minecraft/1.12/Dockerfile))
+- `1.12`, `1.12.1`, `latest` ([Dockerfile](https://raw.githubusercontent.com/terencewestphal/docker-minecraft/1.12.1/Dockerfile))
 - `1.11.2` ([Dockerfile](https://raw.githubusercontent.com/terencewestphal/docker-minecraft/1.11.2/Dockerfile))
 
 
@@ -24,7 +24,7 @@ docker pull terencewestphal/minecraft:latest
 
 Get a specific version:
 ```
-docker pull terencewestphal/minecraft:1.12
+docker pull terencewestphal/minecraft:1.12.1
 ```
 
 ### Build  
@@ -36,7 +36,7 @@ docker build -t minecraft .
 
 Optional: Build with a specific Minecraft version:   
 ```
-docker build --build-arg VERSION=1.12 -t minecraft .
+docker build --build-arg VERSION=1.12.1 -t minecraft .
 ```
 
 ### Run
