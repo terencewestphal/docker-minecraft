@@ -11,7 +11,7 @@
 
 ## Supported tags and Dockerfile
 
-- `1.12`, `1.12.1`, `1.12.2`, `latest` ([Dockerfile](https://raw.githubusercontent.com/terencewestphal/docker-minecraft/1.12.1/Dockerfile))
+- `1.12`, `1.12.1`, `1.12.2`, `latest` ([Dockerfile](https://raw.githubusercontent.com/terencewestphal/docker-minecraft/1.12.2/Dockerfile))
 - `1.11.2` ([Dockerfile](https://raw.githubusercontent.com/terencewestphal/docker-minecraft/1.11.2/Dockerfile))
 
 
